@@ -39,4 +39,4 @@ You now know everything that you need to know in order to simulate the complicat
 
 ![](coffee-shop.png)
 
-__Your task is thus to use everything that you have learned by completing these exercises to simulate this system of queues.__  To pass the exercise you need to name the queuing tool object for simulating the queues `qt`.  Furhtermore, you must create a list called `times` that contains the total time that each agent spent within the network to get their drink.   
+__Your task is thus to use everything that you have learned by completing these exercises to simulate this system of queues.__  To pass the exercise you need to name the queuing tool object for simulating the queues `qt`.  Furthermore, you must create a list called `times` that contains the total time that each agent spent within the network to get their drink.   
