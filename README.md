@@ -21,7 +21,7 @@ The key command here is `qn.set_transitions`.  To understand how this command wo
 adj_graph = { 0: [2], 1: [2,3], 2: [0,1,2,4], 3: [1], 4: [2], }
 ```
 
-You can then set the variable called transitions that is passed to `qn.set_transitions` as follows:
+You can then set the variable called `transitions` that is passed to `qn.set_transitions` as follows:
 
 ```python
 transitions = {
