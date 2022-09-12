@@ -39,4 +39,10 @@ You now know everything that you need to know in order to simulate the complicat
 
 ![](coffee-shop.png)
 
-__Your task is thus to use everything that you have learned by completing these exercises to simulate this system of queues.__  To pass the exercise you need to name the queuing tool object for simulating the queues `qt`.  Furthermore, you must create a list called `times` that contains the total time that each agent spent within the network to get their drink.   
+__Your task is thus to use everything that you have learned by completing these exercises to simulate this system of queues and to draw a graph showing how long each agent waits within the queue.__  
+The x-coordinates of the points in your graph should be numerical indices that distinguish each agent.  The x-coordinate of the first point will thus be 1, the x-coordinate of the second point will be 2, the third will be 3 and so on.  The y-coordinates should then tell you how long that particular agent spent in the queue.  In other words, the nth y-coordinate will tell you the amount of time that passed between the arrival of the nth agent into the queuing system and their departure time from it.  Notice that if the leave service time for an agent is earlier than their arrival time that means they are still in the queue or waiting to receive service at the end of the simulation.
+
+The x-axis of your plot should have the label "Agent" and the y-axis of your plot should have the label "Time spent in system".
+
+The test only checks that you have extracted the times each agent spends in the queue from the simulation correctly.  You can thus pass the test by simulating any queue even if it not the queue 
+that is given in the description of the problem.  If you want to double check that you have setup the queues for the coffee shop properly you can always ask me to take a look at your code.
